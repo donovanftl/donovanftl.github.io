@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgba(50, 115, 220, 0.3);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  min-width: 280px;
+  width: 400px;
+  height: 600px;
+  background: #242424;
+  border-radius: 40px;
+  margin: 20px;
+}
+.card .cabecera {
+  width: 100%;
+  height: 250px;
+  background: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?cs=srgb&dl=pexels-negative-space-160107.jpg&fm=jpg")
+    center/cover no-repeat;
+  border-radius: 40px 40px 0 0;
+}
+.card .infomacion {
+  width: 100%;
+  height: 250px;
+  padding: 0 10px;
+}
+
+.card .profile-img {
+  display: flex;
+  width: 175px;
+  height: 175px;
+  margin: 0px auto;
+  margin-top: -75px;
+  border-radius: 50%;
+}
+
+.card .informacion h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.card .informacion h2 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 15px;
+  color: #c2c2c2;
+}
+
+.card .informacion p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 15px;
+  color: #c2c2c2;
+}
+
+.card .links-perfil {
+  display: inline-flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card .links-perfil img {
+  width: 75px;
+  height: 75px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
